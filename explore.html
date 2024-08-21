@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Desserts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explore.html">Explore</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <section id="explore">
+            <h1>Explore Our Desserts</h1>
+            <div class="explore-options">
+                <a href="icecream.html" class="explore-item">
+                    <div class="explore-image icecream"></div>
+                    <h2>Ice Cream</h2>
+                </a>
+                <a href="cakes.html" class="explore-item">
+                    <div class="explore-image cakes"></div>
+                    <h2>Cakes</h2>
+                </a>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!--<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Explore Desserts</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#" onclick="showSection('explore')">Explore</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <section id="explore">
+                <h1>Explore Our Desserts</h1>
+                <div class="explore-options">
+                    <a href="#" onclick="showSection('icecream')" class="explore-item">
+                        <div class="explore-image icecream"></div>
+                        <h2>Ice Cream</h2>
+                    </a>
+                    <a href="#" onclick="showSection('cakes')" class="explore-item">
+                        <div class="explore-image cakes"></div>
+                        <h2>Cakes</h2>
+                    </a>
+                </div>
+            </section>
+            <section id="icecream" class="hidden">
+                <h1>Ice Cream</h1>
+                <p>Discover our range of delicious ice creams.</p>
+                <ul>
+                    <li>Flavours: Vanilla, Chocolate, Strawberry</li>
+                    <li>Availability: In Stock</li>
+                </ul>
+            </section>
+            <section id="cakes" class="hidden">
+                <h1>Cakes</h1>
+                <p>Discover our range of delicious cakes.</p>
+                <ul>
+                    <li>Flavours: Chocolate, Red Velvet, Lemon</li>
+                    <li>Availability: In Stock</li>
+                </ul>
+            </section>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
+-->
+    <!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Desserts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" onclick="showSection('explore')">Explore</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <section id="explore" class="visible">
+            <h1>Explore Our Desserts</h1>
+            <div class="explore-options">
+                <a href="#" onclick="showModal('icecream-modal')" class="explore-item">
+                    <div class="explore-image icecream"></div>
+                    <h2>Ice Cream</h2>
+                </a>
+                <a href="#" onclick="showModal('cakes-modal')" class="explore-item">
+                    <div class="explore-image cakes"></div>
+                    <h2>Cakes</h2>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <div id="icecream-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('icecream-modal')">&times;</span>
+            <h1>Ice Cream</h1>
+            <p>Discover our range of delicious ice creams.</p>
+            <ul>
+                <li>Flavours: Vanilla, Chocolate, Strawberry</li>
+                <li>Availability: In Stock</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="cakes-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('cakes-modal')">&times;</span>
+            <h1>Cakes</h1>
+            <p>Discover our range of delicious cakes.</p>
+            <ul>
+                <li>Flavours: Chocolate, Red Velvet, Lemon</li>
+                <li>Availability: In Stock</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Desserts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" onclick="showSection('explore')">Explore</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <section id="home" class="visible">
+            <h1>Welcome to the Dessert Haven</h1>
+            <p>Indulge in the best desserts available. From creamy ice creams to luscious cakes, we have everything to satisfy your sweet tooth.</p>
+        </section>
+
+        <section id="explore" class="hidden">
+            <h1>Explore Our Desserts</h1>
+            <div class="explore-options">
+                <a href="#" onclick="showSection('icecream')" class="explore-item">
+                    <div class="explore-image icecream"></div>
+                    <h2>Ice Cream</h2>
+                </a>
+                <a href="#" onclick="showSection('cakes')" class="explore-item">
+                    <div class="explore-image cakes"></div>
+                    <h2>Cakes</h2>
+                </a>
+            </div>
+        </section>
+
+        <section id="icecream" class="hidden">
+            <h1>Ice Cream</h1>
+            <p>Discover our range of delicious ice creams.</p>
+            <ul>
+                <li>Flavours: Vanilla, Chocolate, Strawberry</li>
+                <li>Availability: In Stock</li>
+            </ul>
+        </section>
+
+        <section id="cakes" class="hidden">
+            <h1>Cakes</h1>
+            <p>Discover our range of delicious cakes.</p>
+            <ul>
+                <li>Flavours: Chocolate, Red Velvet, Lemon</li>
+                <li>Availability: In Stock</li>
+            </ul>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
